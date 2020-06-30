@@ -5,7 +5,7 @@ from time import sleep
 
 class EightQueens:
     #solution - one of the pre-defined soution to 8-Queen's problem
-    solution = [0, 4, 7, 5, 2, 6, 1, 3]
+    solution = [3, 6, 2, 7, 1, 4, 0, 5]
     
     #computed_solution - this list will have the final computed solution to 8-Queen's problem
     computed_solution = [None] * len(solution)
